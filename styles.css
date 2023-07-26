@@ -16,8 +16,9 @@ html {
 
 body {
     position: relative;
-    display: flex;
-    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
     background-color: var(--cor-de-fundo);
     color: var(--cor-da-fonte-principal);
     font-family: var(--fonte-principal);
@@ -148,6 +149,55 @@ a {
     justify-content: center;
 }
 
+#valores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.valores-itens {
+    width: calc(100% / 3);
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.item-titulo {
+    background-color: #ddd;
+    width: 100%;
+    color: var(--cor-da-fonte-principal);
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.item-valor {
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+.item-descricao {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.item-descricao li {
+    padding: 5px 0;
+}
+
+.btn {
+    height: 40px;
+    padding: 0 20px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
