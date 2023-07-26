@@ -44,6 +44,12 @@ body {
 a {
     text-decoration: none;
     color: var(--cor-da-fonte-principal);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    
 }
 
 #hero {
@@ -57,7 +63,7 @@ a {
 }
 
 #hero>h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     margin: 0 auto;
@@ -90,5 +96,53 @@ a {
     cursor: pointer;
 }
 
+#caracteristicas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caracteristicas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.caracteristicas-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+.fa-solid {
+    font-size: 5em;
+}
+
+.caracteristicas-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+    gap: 10px;
+}
+
+
+.caracteristicas-descricao h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.caracteristicas-descricao p {
+    font-size: 1.5rem;
+}
 
 
