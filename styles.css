@@ -16,7 +16,8 @@ html {
 
 body {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: var(--cor-de-fundo);
     color: var(--cor-da-fonte-principal);
     font-family: var(--fonte-principal);
@@ -37,8 +38,8 @@ body {
 #nav-bar>ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 0 10px;
+    justify-content: space-between;
+    gap: 0 50px;
 }
 
 a {
@@ -46,10 +47,6 @@ a {
     color: var(--cor-da-fonte-principal);
     text-transform: uppercase;
     font-size: 1.3rem;
-}
-
-a:hover {
-    
 }
 
 #hero {
@@ -144,5 +141,13 @@ a:hover {
 .caracteristicas-descricao p {
     font-size: 1.5rem;
 }
+
+#como-funciona {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
